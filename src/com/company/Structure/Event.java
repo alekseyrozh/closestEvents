@@ -1,6 +1,8 @@
 package com.company.Structure;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 public class Event {
     private int id;

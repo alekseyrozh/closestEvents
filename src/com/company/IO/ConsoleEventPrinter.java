@@ -1,6 +1,5 @@
 package com.company.IO;
 
-import com.company.EventTreeNode;
 import com.company.Structure.Event;
 import com.company.Structure.Position;
 

@@ -2,7 +2,6 @@ package com.company;
 
 
 import com.company.ClosestEventFinders.ClosestEventFinder;
-import com.company.ClosestEventFinders.SimpleClosestEventFinder;
 import com.company.ClosestEventFinders.TreeClosestEventFinder;
 import com.company.IO.ConsoleEventPrinter;
 import com.company.IO.ConsolePositionReader;
@@ -10,16 +9,16 @@ import com.company.IO.EventDisplayer;
 import com.company.IO.PositionReader;
 import com.company.Structure.Event;
 import com.company.Structure.Position;
-import com.company.Structure.Price;
-import com.company.Structure.Ticket;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.Comparator;
 
 /**
  * Assumptions:
  * 1) Better to display a closer event with no tickets, than a farther one with available tickets.
+ *
+ *
+ *
+ * 
  */
 
 public class Main {
