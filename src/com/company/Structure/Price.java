@@ -3,7 +3,7 @@ package com.company.Structure;
 import java.util.Comparator;
 
 public class Price {
-    private final static String DISPLAY_FORMAT = "$%d.%d";
+    private final static String DISPLAY_FORMAT = "$%02d.%02d";
     public static Comparator<Price> comparator = Comparator.comparing(price -> price.dollars * 100 + price.cents);
 
     private final int dollars;
